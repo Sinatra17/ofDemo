@@ -1,4 +1,6 @@
+#include <iostream>
 #include "ofApp.h"
+uding namespace std;
 
 //--------------------------------------------------------------
 void ofApp::setup(){
@@ -21,6 +23,7 @@ for(int i = 0; i < 3; i++)
    ofDrawLine(0,0,0,220);
 
  }
+ cout << "Hello from setup";
 }
 
 
